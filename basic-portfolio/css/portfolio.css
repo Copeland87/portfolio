@@ -1,0 +1,161 @@
+
+body {
+    font-family: 'Georgia', Times, serif;
+    font-size: 13px;
+    color:#333
+    height: 650px; 
+    width: 960px;
+    background-color: #ededed;
+}
+
+#bg {
+    background-repeat: no-repeat;
+    background-size: 1632px 1224px;
+    opacity: .91;
+}
+
+p {
+    padding: 10px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#header {
+    float: left;
+    height: 75px;
+    width: 260px;
+    background: #4aaaa5;
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    border: 1px solid #cccccc;
+    margin-left: 30px;
+    margin-right: 90px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#navigation {
+    float: left;
+    height: 60px;
+    width: 300px;
+    text-align: right;
+    margin-top: 15px;
+    margin-left: 240px;
+}
+
+#navbar {
+    
+}
+
+a {
+    color: #4AAAA5;
+}
+a:hover {
+    color: black;
+}
+
+.nav {
+    display: inline-block;
+    font-size: 120;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #dddddd;
+    border-radius: 20px;
+}
+
+#connect {
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    width: 280px;
+    float: left;
+    color: #4aaaa5;
+    font-size: 100%;
+    font-weight: bold;
+    font-family: 'Georgia', Times, serif;
+    text-align: center;
+}
+
+#connectbreak {
+    border-bottom: 3px solid #dddddd;
+    padding-top: 20px;
+    padding-bottom: 26px;
+}
+
+/*image styling*/
+
+#github {
+    height: 68px;
+    width: 68px;
+    float: right;
+    border: 1px solid white;
+}
+#linkedin {
+    height: 68px;
+    width: 68px;
+    float: right;
+    border: 1px solid white;
+}
+#stack {
+    height: 68px;
+    width: 68px;
+    float: right;
+    border: 1px solid white;
+}
+#exit {
+    height: 68px;
+    width: 68px;
+    float: right;
+    border: 1px solid white;
+}
+
+/*main content*/
+
+#title {
+    font-size: 130%;
+    margin-left: 0;
+    font-weight: bold;
+    font-family: 'Georgia', Times, serif;
+    color: #4aaaa5;
+}
+
+#content {
+    float: left;
+    border-radius: 20px;
+    background: #FFFFFF;
+    width: 650px;
+    color: #777777;
+    font-family: 'Arial', Helvetica, san-serif;
+    border: 1px solid #dddddd;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#border {
+    border-top: 3px solid #dddddd;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#footer {
+    height: 60px;
+    width: 940px;
+    background: #666666;
+    clear: both;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+    margin-left: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
